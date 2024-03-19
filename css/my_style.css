@@ -18,3 +18,13 @@ p.redred{
     font-family: 'Noto Serif TC','sans-serif';
     color: #40639c;
 }
+
+.expedu_icon{
+    color: blue
+}
+
+.expedu_icon:hover{
+    background-color: red;
+    color: white;
+
+}
