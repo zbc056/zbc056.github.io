@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #edebd8;
+    background-color: 	#FCFCFC;
     font-family: 'Noto Sans TC','sans-serif';
 }
 
@@ -12,6 +12,12 @@ p.redred{
     color: red;
     font-size: 40px;
     text-align: center;
+    border: 10px solid;
+    border-color: #272727;
+    background-color: #4F4F4F;
+    background-image: url(../assets/img/bg-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .blueblue{
@@ -28,3 +34,12 @@ p.redred{
     color: white;
 
 }
+
+.bg-primary {
+    background-color:rgba(0, 0, 0, 0.8)!important;
+    background-image: url(../assets/img/bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
