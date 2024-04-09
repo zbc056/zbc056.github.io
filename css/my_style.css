@@ -43,3 +43,30 @@ p.redred{
     background-position: center;
 }
 
+ol.list01{
+    list-style-type: upper-roman;
+}
+
+ol.list01>li:hover{
+    background-color: rgb(2, 11, 136);
+    color: brown
+}
+
+ol.list02{
+    list-style-type: square;
+}
+
+ol.list02>li:hover{
+    background-color: rgb(2, 11, 136);
+    color: brown
+}
+
+table.table01{
+    text-align: center;
+    width: 80%;
+    background-color: rgb(0, 128, 240);
+}
+
+table.table01{
+    text-align: center;
+}
