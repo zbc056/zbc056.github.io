@@ -52,11 +52,11 @@ ol.list01>li:hover{
     color: brown
 }
 
-ol.list02{
+ul.list02{
     list-style-type: square;
 }
 
-ol.list02>li:hover{
+ul.list02>li:hover{
     background-color: rgb(2, 11, 136);
     color: brown
 }
