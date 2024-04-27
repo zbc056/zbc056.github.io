@@ -25,8 +25,8 @@ div.redred{
 }
 
 .blueblue{
-    font-family: 'Noto Sans TC','sans-serif';
-    color: yellow;
+    font-family: 'Noto Sans TC','sans-serif'!important;
+    color: yellow !important;
 }
 
 .expedu_icon{
@@ -52,7 +52,7 @@ ol.list01{
 }
 
 ol.list01>li:hover{
-    background-color: rgb(2, 11, 136);
+    background-color: rgb(201, 230, 165);
     color: brown
 }
 
@@ -60,8 +60,8 @@ ul.list02{
     list-style-type: square;
 }
 
-ul.list02>li:hover{
-    background-color: rgb(2, 11, 136);
+ul.list-group>li:hover{
+    background-color: rgb(208, 235, 178);
     color: brown
 }
 
@@ -77,4 +77,21 @@ table.table01{
 
 .table-80{
     width: 80%;
+}
+
+#about{
+    background-image: url(../assets/img/bg02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.text1{
+    color:black;
+}
+
+#awards_table{
+    justify-content: center;
+    align-items: center;
 }
